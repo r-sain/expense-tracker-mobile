@@ -1,0 +1,137 @@
+.addTrans {
+  width: 100%;
+  height: 100%;
+  background-color: #9dbfae;
+}
+
+.transHead {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input::placeholder,
+select::placeholder {
+  text-align: center;
+}
+
+.transHead .heading {
+  color: rgb(75, 75, 75);
+  background-color: #9dbfae;
+  letter-spacing: 4px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 10vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder !important;
+  font-size: 16px;
+}
+
+.transBody {
+  margin: 10px;
+  height: 60vh;
+  max-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 100vw;
+  max-height: 70vh;
+  min-height: 66vh;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #74a08b;
+  -webkit-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+
+.form > input {
+  box-sizing: border-box;
+  text-align: center;
+  color: #7e7e7e;
+  width: 75vw;
+  height: 60px;
+  background-color: #dadada;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.form > select {
+  box-sizing: border-box;
+  width: 75vw;
+  height: 60px;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  padding-left: 10px;
+  color: #7e7e7e;
+  background-color: #dadada;
+}
+
+.form > button {
+  box-sizing: border-box;
+  width: 75vw;
+  height: 60px;
+  background-color: #075357;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.form > span {
+  box-sizing: border-box;
+  width: 75vw;
+  height: 60px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.form .datePicker {
+  box-sizing: border-box;
+  width: 75vw;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  color: #7e7e7e;
+  background-color: #dadada;
+}
+
+.react-datepicker {
+  margin-left: 0vw;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item {
+  height: 30px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  border-radius: 0;
+}
+
+.react-datepicker-popper {
+  z-index: 1;
+}

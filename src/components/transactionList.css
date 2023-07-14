@@ -1,0 +1,35 @@
+.transList {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.transListHead {
+  background-color: #2e3532;
+  color: rgb(194, 194, 194);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 13px;
+  position: sticky;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-shadow: 0px -2px 0px 0px rgba(208, 237, 230, 1);
+  -moz-box-shadow: 0px -2px 0px 0px rgba(208, 237, 230, 1);
+  box-shadow: 0px -2px 0px 0px rgba(208, 237, 230, 1);
+}
+
+.transListBody {
+  height: 82%;
+}
+
+.transListBody .emptyTrans {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #818181;
+}

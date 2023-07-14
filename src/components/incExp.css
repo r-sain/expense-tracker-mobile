@@ -1,0 +1,70 @@
+.inc-exp-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #5b92798e;
+  -webkit-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.moneyMinus > h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1px;
+  color: #2e3532;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.moneyPlus > h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1px;
+  color: #2e3532;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.moneyPlus > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder !important;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #2e3532;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+}
+
+.moneyPlus svg {
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+.moneyMinus > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder !important;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #2e3532;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+}
+
+.moneyMinus svg {
+  padding-bottom: 2px;
+  margin-left: 5px;
+}

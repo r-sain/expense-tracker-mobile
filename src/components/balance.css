@@ -1,0 +1,49 @@
+.balanceCardComp {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headBal > h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  color: #2e3532;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  margin-left: 2vw;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.balanceAmt {
+  color: #2e3532;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: -3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.balanceAmt.positive {
+  color: #1e7b48;
+}
+
+.balanceAmt.negative {
+  color: #bd5113;
+}

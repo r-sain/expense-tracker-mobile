@@ -1,0 +1,49 @@
+.homePage {
+  height: 100%;
+  background-color: #93b3a3;
+}
+.username {
+  height: 40px;
+}
+.username .userform {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+}
+.username .userform form {
+  display: flex;
+  gap: 10px;
+}
+
+.username .userform form > input {
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+}
+.username .userform form > button {
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  color: rgb(6, 92, 6);
+}
+.username p {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #2e3532;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+.balancecard {
+  height: 35%;
+}
+
+.expenseList {
+  height: calc(100% - 35% - 40px);
+}

@@ -1,0 +1,52 @@
+ul {
+  width: 80vw;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  width: 90%;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+li {
+  background-color: #5b92798e;
+  -webkit-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px;
+  width: 99%;
+  box-sizing: border-box;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.listLeft,
+.amountsPlus,
+.amountsMinus {
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.listRight {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.amountsPlus {
+  color: #1e7b48;
+}
+
+.amountsMinus {
+  color: #bd5113;
+}
